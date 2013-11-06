@@ -1,0 +1,66 @@
+---
+layout: post
+title:  "Day 11"
+date:   2013-11-04
+categories: day
+---
+
+## Create a marketing page for a Kickstarter project
+
+- Build out a marketing site that shows one slide at a time (more or less).
+- Start with the images and copy from the project.
+- Feel free to search the web for more images.
+- Feel free to make up copy.
+
+## Requirements
+
+- Use the full-screen height design pattern.
+- Draw up 2-3 sketches. Show to another group, ask what they would do next.
+- Include a nav, at least three sections, and a footer
+- Include information about the people behind the project
+- Include a form (for signing up, or whatever you want)
+
+## How to write good copy
+
+- What problem does the product solve?
+- What does user want to know?
+- Can you simplify?
+
+## Steps
+
+- Pick a topic
+- Sketch site, start copy
+- Wireframe, write more copy
+- Code
+- Iterate
+
+## Kickstarters
+
+- [Publishing projects](http://www.kickstarter.com/discover/categories/publishing)
+- [Fashion projects](http://www.kickstarter.com/discover/categories/fashion)
+- [Games projects](http://www.kickstarter.com/discover/categories/games)
+
+## Nice fullish-screen marketing pages
+
+
+- [We Are Mammoth](http://wearemammoth.com/about)
+- [Built by Buffalo](http://builtbybuffalo.com/planner)
+- [Kin HR](http://kinhr.com/)
+- [Avondale Type Co](http://avondaletypeco.com/atc-krueger/)
+- [Oyster Books](https://www.oysterbooks.com/)
+- [Hellenic Inland Shrimp Farming](http://www.shrimp.eu/en)
+- [150px.com](http://150px.com/)
+- [Jon Kyte](http://www.jrk-design.co.uk)
+- [Marmoset Music](https://www.marmosetmusic.com/)
+- [Josh Sender](http://joshsender.com/)
+- [72u](http://72u.org/)
+
+## Handy links
+
+
+- [Project scaffold](https://github.com/tsl-frontend/scaffold)
+- [Bootstrap](http://getbootstrap.com)
+- [Subtle Patterns](http://subtlepatterns.com/)
+- [Google fonts](http://www.google.com/fonts)
+- [Font Awesome — icon fonts](http://fortawesome.github.io/Font-Awesome/)
+- [Flickr Commons — lots of great, old, free pictures](http://www.flickr.com/commons)
