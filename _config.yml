@@ -2,3 +2,4 @@ name: Starter League HTML/CSS Fall 2013
 markdown: redcarpet
 pygments: true
 baseurl: /
+permalink: none
