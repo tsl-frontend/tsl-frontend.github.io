@@ -1,5 +1,5 @@
 build:
-	bundle exec jekyll build --config _config.yml
+	bundle exec jekyll build
 
 server:
-	bundle exec jekyll serve --watch --config _config.yml
+	bundle exec jekyll serve --watch
