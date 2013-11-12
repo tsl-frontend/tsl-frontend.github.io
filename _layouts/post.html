@@ -7,6 +7,26 @@ layout: default
 </div>
 
 <div class="row">
+    <div class="col-sm-4">
+        {% if page.events %}
+            <h3>Events</h3>
+            {% for item in page.events %}
+                {{ item|markdownify }}
+            {% endfor %}
+        {% endif %}
+        {% if page.links %}
+            <h3>Handy links</h3>
+            {% for item in page.links %}
+                {{ item|markdownify }}
+            {% endfor %}
+        {% endif %}
+        {% if page.videos %}
+            <h3>Vieos</h3>
+            {% for item in page.videos %}
+                {{ item|markdownify }}
+            {% endfor %}
+        {% endif %}
+    </div>
     <div class="col-sm-8">
         {{ content }}
     </div>
