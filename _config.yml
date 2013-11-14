@@ -3,4 +3,3 @@ markdown: redcarpet
 pygments: true
 baseurl: /
 permalink: none
-exclude: [sass]
