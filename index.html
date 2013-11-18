@@ -3,7 +3,17 @@ layout: page
 ---
 
 {% for post in site.posts %}
-  <p>
-      <span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a>
-  </p>
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h3 class="panel-title">
+            <a href="{{ post.url }}">{{ post.title }}</a>
+            <a href="{{ post.url }}"><span class="pull-right badge">{{ post.date | date_to_string }}</span></a>
+        </h3>
+    </div>
+    <div class="panel-body">
+        {% for topic in post.topics %}
+            {{ topic }}<br>
+        {% endfor %}
+    </div>
+</div>
 {% endfor %}
