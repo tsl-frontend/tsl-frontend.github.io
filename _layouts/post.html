@@ -26,6 +26,12 @@ layout: default
                 {{ item|markdownify }}
             {% endfor %}
         {% endif %}
+        {% if page.homework %}
+            <h3>Homework</h3>
+            {% for item in page.homework %}
+                {{ item|markdownify }}
+            {% endfor %}
+        {% endif %}
     </div>
     <div class="col-sm-8 post-content">
         {{ content }}
