@@ -8,9 +8,9 @@ layout: default
 
 <div class="row">
     <div class="col-sm-4">
-        {% if page.events %}
-            <h3>Events</h3>
-            {% for item in page.events %}
+        {% if page.exercises %}
+            <h3>Exercises</h3>
+            {% for item in page.exercises %}
                 {{ item|markdownify }}
             {% endfor %}
         {% endif %}
@@ -29,6 +29,12 @@ layout: default
         {% if page.homework %}
             <h3>Homework</h3>
             {% for item in page.homework %}
+                {{ item|markdownify }}
+            {% endfor %}
+        {% endif %}
+        {% if page.events %}
+            <h3>Events</h3>
+            {% for item in page.events %}
                 {{ item|markdownify }}
             {% endfor %}
         {% endif %}
