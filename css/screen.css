@@ -7,6 +7,10 @@ img {
   max-width: 100%;
 }
 
+.navbar {
+  border-radius: 0;
+}
+
 .post-content li {
   line-height: 18px;
   margin-bottom: 6px;
